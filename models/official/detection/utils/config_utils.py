@@ -27,6 +27,11 @@ _PARSERS = [
     'shapemask_parser',
 ]
 
+_BACKBONES = [
+    'resnet',
+    'spinenet',
+]
+
 _MULTILEVEL_FEATURES = [
     'fpn',
     'nasfpn',
